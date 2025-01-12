@@ -1,0 +1,102 @@
+body {
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: firebrick;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(203, 185, 185, 0.5);
+    border-radius: 8px;
+    border: 5px groove lightpink;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #202c38;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: firebrick;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #da0404;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    background-color: rgba(203, 185, 185, 0.5);
+}
+
+#resumeOutput h2 {
+    color: black;
+    margin-top: 0;
+}
+
+#profile-picture-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+}
+
+#resumeOutput img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
